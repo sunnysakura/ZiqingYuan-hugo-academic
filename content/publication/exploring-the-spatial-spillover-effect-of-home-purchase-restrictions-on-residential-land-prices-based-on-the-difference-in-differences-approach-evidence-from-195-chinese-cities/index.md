@@ -13,7 +13,7 @@ author_notes:
   - ""
   - Corresponding author
 doi: https://doi.org/10.1016/j.landusepol.2020.105236
-publication: Land Use Policy
+publication: "*Land Use Policy*"
 abstract: Since 2008, the sustained and rapid escalation of housing prices has
   increasingly become an alarming issue in most Chinese cities, to which the
   government has responded by strengthening its macro-control of the housing
