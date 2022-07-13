@@ -1,4 +1,13 @@
 ---
+title: "Trade liberalization and wages: Evidence from the closer economic
+  partnership arrangement between mainland China and Hong Kong"
+publication_types:
+  - "2"
+authors:
+  - Yonghong Zhou
+  - Xian Zheng
+  - admin
+publication_short: ""
 abstract: This paper studies the impact of tariff cuts on workers’ wages in a
   single labor market by examining the Closer Economic Partnership Arrangement
   (CEPA) trade liberalization, in which China unilaterally eliminated hundreds
@@ -13,19 +22,16 @@ abstract: This paper studies the impact of tariff cuts on workers’ wages in a
   industries. We conclude that tariff cuts’ wage impact and, hence, their impact
   on wage inequality, depend on the local labor market composition and
   structure.
+draft: false
+featured: true
+tags: []
 slides: example
 url_pdf: ""
-publication_types:
-  - "2"
-authors:
-  - Yonghong Zhou
-  - Xian Zheng
-  - admin
-author_notes:
-  - ""
-  - Corresponding author
-  - ""
-publication: In *Research in International Business and Finance*
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
+  filename: featured.png
 summary: We study the impact of one-sided tariff cuts on wages of workers in
   Hong Kong. Tariff concession leads to an increase in the wage of affected
   workers. More educated and higher-skilled workers benefit more from the tariff
@@ -33,21 +39,16 @@ summary: We study the impact of one-sided tariff cuts on wages of workers in
   structure.
 url_dataset: ""
 url_project: ""
-publication_short: ""
 url_source: ""
 url_video: ""
-title: "Trade liberalization and wages: Evidence from the closer economic
-  partnership arrangement between mainland China and Hong Kong"
+author_notes:
+  - ""
+  - Corresponding author
+  - ""
 doi: https://doi.org/10.1016/j.ribaf.2022.101653
-featured: true
-tags: []
+publication: In *Research in International Business and Finance*
 projects: []
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-  filename: featured.png
-date: 2013-07-01T00:00:00Z
+date: 2022-10-01T08:21:50.812Z
 url_slides: ""
 publishDate: 2017-01-01T00:00:00Z
 url_poster: ""
