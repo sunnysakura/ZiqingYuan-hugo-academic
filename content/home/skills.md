@@ -16,27 +16,27 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-  - description:
+  - description: 90%
     icon: chart-line
     icon_pack: fas
     name: Stata
     
-  - description: 
+  - description: 80%
     icon: r-project
     icon_pack: fab
     name: R
     
-  - description: 
+  - description: 80%
     icon: typewriter
     icon_pack: fab
     name: Latex
    
-  - description: 
+  - description: 90%
     icon: camera-retro
     icon_pack: fas
     name: Photography
     
-   - description: 
+   - description: 80%
     icon: music
     icon_pack: fas
     name: Guzheng
