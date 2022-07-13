@@ -5,35 +5,39 @@ title: Nelson Bighetti
 # Is this the primary user of the site?
 superuser: true
 
+# Is this the primary user of the site?
+superuser: true
+
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Ph.D. candidate in the Department of Real estate and Construction
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: University of Hong Kong
+    url: https://www.hku.hk
+
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include Urban and Real Estate Economics, Labor Economics.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Urban and Real Estate Economics
+  - Real Estate Finance
+  - Labor Economics
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: Ph.D. in Urban and Real Estate Economics
+      institution: University of Hong Kong
+      year: 2023
+    - course: MPhil in Applied Economics
+      institution: Jinan University
+      year: 2019
+    - course: BSc in Finance
+      institution: South-Central University for Nationalities
+      year: 2016
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -42,7 +46,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'mailto:yzq0612@foxmail.com'
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/GeorgeCushen
@@ -70,8 +74,4 @@ email: ''
 highlight_name: true
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+Warm Greetings! My name is Ziqing Yuan. I am a Ph.D. candidate in the Department of Real estate and Construction at the University of Hong Kong. My research interests include urban economics, real estate finance, and labor economics.
