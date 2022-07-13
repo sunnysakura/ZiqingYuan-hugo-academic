@@ -25,7 +25,7 @@ abstract: This paper studies the impact of tariff cuts on workers’ wages in a
 draft: false
 featured: true
 tags: []
-slides: example
+slides: cepa
 url_pdf: ""
 image:
   caption: ""
@@ -50,7 +50,7 @@ publication: In *Research in International Business and Finance*
 projects: []
 date: 2022-10-01T08:21:50.812Z
 url_slides: ""
-publishDate: 2017-01-01T00:00:00Z
+publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
 ---
