@@ -42,7 +42,7 @@ tags: []
 image:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
   filename: happy.jpeg
 date: 2022-07-17T09:03:06.322Z
 url_slides: ""
