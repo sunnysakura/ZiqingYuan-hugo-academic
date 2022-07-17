@@ -35,11 +35,11 @@ abstract: Since 2008, the sustained and rapid escalation of housing prices has
   spatial heterogeneity, dynamic linkages between cities, and the supply side
   when establishing housing regulations and developing land-use plans.
 draft: false
-featured: false
-slides: 
+featured: true
+slides: null
 url_pdf: ""
 image:
-  filename: featured
+  filename: featured.jpg
   focal_point: Smart
   preview_only: false
 date: 2021-03-01T08:58:00.923Z
