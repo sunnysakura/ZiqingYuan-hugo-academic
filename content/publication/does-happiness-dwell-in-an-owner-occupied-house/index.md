@@ -22,7 +22,7 @@ abstract: This study investigates the causal relationship between homeownership
 draft: false
 featured: false
 tags: []
-slides: ""
+slides: happy
 url_pdf: ""
 image:
   caption: ""
@@ -45,7 +45,7 @@ author_notes:
 doi: https://doi.org/10.1016/j.cities.2019.102404
 publication: "*Cities*"
 projects: []
-date: 2022-10-01T08:21:50.812Z
+date: 2020-01-01T08:21:00.000Z
 url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
