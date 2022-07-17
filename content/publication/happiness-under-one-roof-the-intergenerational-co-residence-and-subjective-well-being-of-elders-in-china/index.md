@@ -28,7 +28,10 @@ featured: true
 projects: []
 slides: ""
 url_pdf: ""
-summary: ""
+summary: "This study investigates the relationship between intergenerational
+  co-residence and the subjective well-being (SWB) of elders based on the
+  individual-level panel data collected from the Chinese Longitudinal Healthy
+  Longevity Survey from 2002 to 2014. "
 url_dataset: ""
 url_project: ""
 url_source: ""
