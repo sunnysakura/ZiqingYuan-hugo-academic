@@ -37,7 +37,7 @@ summary: We study the impact of one-sided tariff cuts on wages of workers in
   workers. More educated and higher-skilled workers benefit more from the tariff
   cuts. Impact of tariff cuts on wage inequality depends on the labor market
   structure.
-url_dataset: "https://data.mendeley.com/datasets/gjn4vhwkxx/1"
+url_dataset: ""
 url_project: ""
 url_source: ""
 url_video: ""
@@ -52,5 +52,5 @@ date: 2022-10-01T08:21:50.812Z
 url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
-url_code: ""
+url_code: "https://data.mendeley.com/datasets/gjn4vhwkxx/1"
 ---

@@ -36,7 +36,8 @@ abstract: Since 2008, the sustained and rapid escalation of housing prices has
   when establishing housing regulations and developing land-use plans.
 draft: false
 featured: false
-slides: example
+slides: 
+url_pdf: ""
 image:
   filename: featured
   focal_point: Smart
