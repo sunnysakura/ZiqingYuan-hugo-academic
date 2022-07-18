@@ -2,24 +2,18 @@
 slides: example
 url_pdf: ""
 title: Homeownership and subjective well-being in urban China
-summary: Special Funds for the Cultivation of Guangdong College Students'
-  Scientific and Technological Innovation  (CNY10,000 research grant) Special
-  Fund for Science and Technology Innovation Strategy of Guangdong Province
-  (“Climbing Plan”)
+summary: "2019-2020 “Climbing Plan”: Special Funds for the Cultivation of
+  Guangdong College Students' Scientific and Technological
+  Innovation  (CNY10,000 research grant) Project Leader: admin"
 url_video: ""
-date: 2016-04-27T00:00:00Z
+date: 2016-04-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
 subtitle: ""
-tags:
-  - Deep Learning
-links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
+tags: []
+links: []
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: ""
   focal_point: Smart
 url_code: ""
 ---
