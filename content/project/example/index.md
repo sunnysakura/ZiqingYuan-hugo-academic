@@ -4,7 +4,7 @@ url_pdf: ""
 title: Homeownership and subjective well-being in urban China
 summary: "2019-2020 “Climbing Plan”: Special Funds for the Cultivation of
   Guangdong College Students' Scientific and Technological
-  Innovation  (CNY10,000 research grant) Project Leader: admin"
+  Innovation  (CNY10,000 research grant)"
 url_video: ""
 date: 2016-04-27T00:00:00.000Z
 external_link: ""
