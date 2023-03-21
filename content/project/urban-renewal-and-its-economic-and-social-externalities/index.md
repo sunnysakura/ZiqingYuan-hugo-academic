@@ -4,6 +4,8 @@ subtitle: National Natural Science Foundation of China (NSFC) (72074097)
 date: 2023-03-21T12:54:21.484Z
 draft: false
 featured: false
+authors:
+  - Participant
 image:
   filename: featured
   focal_point: Smart
