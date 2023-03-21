@@ -45,12 +45,12 @@ author_notes:
   - ""
   - Corresponding author
   - ""
-doi: https://doi.org/10.1016/j.ribaf.2022.101653
-publication: "*Research in International Business and Finance*"
+doi: ""
+publication: "*International Journal of Emerging Markets*"
 projects: []
 date: 2022-10-01T08:21:50.812Z
 url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
-url_code: "https://data.mendeley.com/datasets/gjn4vhwkxx/1"
+url_code: https://data.mendeley.com/datasets/gjn4vhwkxx/1
 ---
