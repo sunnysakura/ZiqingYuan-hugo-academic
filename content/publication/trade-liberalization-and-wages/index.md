@@ -46,7 +46,7 @@ author_notes:
   - Corresponding author
   - ""
 doi: https://doi.org/10.1016/j.ribaf.2022.101653
-publication: "*International Journal of Emerging Markets*"
+publication: "*Research in International Business and Finance*"
 projects: []
 date: 2022-10-01T08:21:50.812Z
 url_slides: ""
