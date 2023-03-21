@@ -30,11 +30,9 @@ experience:
     date_start: '2020-01-01'
     date_end: ''
     description: |2-
-   
-        Responsibilities include:
-        
+       Responsibilities include:
         * Conducted preliminary literature review 
-        * Contributed to the writing of the project proposal
+        * Contributed to the writing of the project proposal.
 
   - title: Housing Wealth and Subjective well-being in Urban China
     company: "Climbing Project" Guangdong University Student Science and Technology Innovation Cultivation Special Fund Project (pdjhb0069)
