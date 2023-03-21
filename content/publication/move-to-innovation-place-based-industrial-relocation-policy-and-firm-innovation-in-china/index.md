@@ -4,8 +4,8 @@ title: "Move to innovation: Place-based industrial relocation policy and firm
 publication_types:
   - "2"
 authors:
-  - Yonghong Zhou
   - Xian Zheng
+  - Jinchuan Huang
   - admin
 publication_short: ""
 abstract: >
