@@ -22,27 +22,27 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+  - title: Urban Renewal and Its Economic and Social Externalities
+    company: National Natural Science Foundation of China (NSFC) (72074097)
     company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+    company_logo: org-nsfc
+    location: Participant
+    date_start: '2020-01-01'
     date_end: ''
     description: |2-
+   
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Conducted preliminary literature review 
+        * Contributed to the writing of the project proposal
 
-  - title: Professor of Semiconductor Physics
-    company: University X
+  - title: Housing Wealth and Subjective well-being in Urban China
+    company: "Climbing Project" Guangdong University Student Science and Technology Innovation Cultivation Special Fund Project (pdjhb0069)
     company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
+    company_logo: org-cp
+    location: Principal Investigator
+    date_start: '2018-01-01'
+    date_end: '2019-12-31'
     description: Taught electronic engineering and researched semiconductor physics.
 
 design:
