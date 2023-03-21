@@ -1,6 +1,6 @@
 ---
-title: Outward FDI and Labor Income Share under “the Belt and Road”
-subtitle: “凿空之旅”泽万民:“一带一路”对外直接投资如何提高劳动收入份额
+title: “凿空之旅”泽万民:“一带一路”对外直接投资如何提高劳动收入份额
+subtitle: Outward FDI and Labor Income Share under “the Belt and Road”
 publication_types:
   - "2"
 authors:
