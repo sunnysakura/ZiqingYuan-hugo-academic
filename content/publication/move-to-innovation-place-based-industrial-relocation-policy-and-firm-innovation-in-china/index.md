@@ -54,8 +54,8 @@ url_source: ""
 url_video: ""
 author_notes:
   - ""
-  - Corresponding author
   - ""
+  - Corresponding author
 doi: https://doi.org/10.1016/j.ribaf.2022.101653
 publication: "*International Journal of Emerging Markets*"
 projects: []
