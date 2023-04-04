@@ -88,7 +88,7 @@ image:
   focal_point: ""
   preview_only: false
   filename: ""
-date: 2023-03-23T02:52:54.256Z
+date: 2018-04-04T12:13:00.000Z
 url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
