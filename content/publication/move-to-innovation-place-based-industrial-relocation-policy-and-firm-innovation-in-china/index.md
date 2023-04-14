@@ -54,7 +54,7 @@ url_source: ""
 url_video: ""
 author_notes:
   - Corresponding author
-doi: ""
+doi: https://doi.org/10.1108/IJOEM-08-2022-1299
 publication: "*International Journal of Emerging Markets*"
 projects: []
 date: 2023-03-21T12:25:22.676Z
