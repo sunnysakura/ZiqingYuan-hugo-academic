@@ -9,11 +9,11 @@ superuser: true
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. candidate in the Department of Real estate and Construction
+role: Ph.D. in the Department of Real estate and Construction
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of Hong Kong
+  - name: The University of Hong Kong
     url: https://www.hku.hk
 
 
@@ -22,15 +22,15 @@ bio: My research interests include Urban and Real Estate Economics, Labor Econom
 
 # Interests to show in About widget
 interests:
-  - Urban and Real Estate Economics
-  - Real Estate Finance
-  - Labor Economics
+  - Real Estate Finance and Economics
+  - Urban and Regional Economic Policies
+  - Public Policy Evaluation
 
 # Education to show in About widget
 education:
   courses:
     - course: Ph.D. in Urban and Real Estate Economics
-      institution: University of Hong Kong
+      institution: The University of Hong Kong
       year: 2023
     - course: MPhil in Applied Economics
       institution: Jinan University
@@ -74,4 +74,4 @@ email: ''
 highlight_name: true
 ---
 
-Warm Greetings! My name is Ziqing Yuan. I am a Ph.D. candidate in the Department of Real estate and Construction at the University of Hong Kong. My research interests include urban economics, real estate finance, and labor economics.
+Warm Greetings! My name is Ziqing Yuan. I received my Ph.D. in the Department of Real estate and Construction at the University of Hong Kong. My research interests include urban economics, real estate finance, and public policy evaluation.
