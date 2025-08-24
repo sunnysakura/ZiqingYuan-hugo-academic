@@ -41,7 +41,7 @@ draft: false
 featured: true
 image:
   filename: figure6.png
-  focal_point: Smart
+  focal_point: RIGHT
   preview_only: false
 date: 2025-08-24T04:24:46.945Z
 ---
