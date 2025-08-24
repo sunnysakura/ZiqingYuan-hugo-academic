@@ -11,7 +11,7 @@ authors:
 author_notes:
   - ""
 doi: https://doi.org/10.1016/j.buildenv.2024.111227
-publication: Building and Environment
+publication: "*Building and Environment*"
 abstract: Housing design layout plays a crucial role in occupant well-being, yet
   existing research has not clearly understood occupants’ preferences for
   different housing design layout attributes. This study aims to elucidate
