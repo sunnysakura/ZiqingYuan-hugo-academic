@@ -4,7 +4,7 @@ title: "Investors matter when prices are dispersed: the effects of investor
 publication_types:
   - "2"
 authors:
-  - Ziqing Yuan
+  - admin
   - K. W. Chau
   - Xian Zheng
 doi: https://doi.org/10.1057/s41599-025-05260-6
