@@ -8,6 +8,8 @@ authors:
   - K. W. Chau
   - Xian Zheng
 doi: https://doi.org/10.1057/s41599-025-05260-6
+publication: Humanities and social sciences communications
+publication_short: ""
 abstract: >-
   Housing price dispersion highlights the individual differences in capital
   gains by capturing the
