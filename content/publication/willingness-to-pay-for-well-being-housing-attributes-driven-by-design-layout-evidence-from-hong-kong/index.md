@@ -10,6 +10,8 @@ authors:
   - Weisheng Lu
 author_notes:
   - ""
+doi: https://doi.org/10.1016/j.buildenv.2024.111227
+publication: Building and Environment
 abstract: Housing design layout plays a crucial role in occupant well-being, yet
   existing research has not clearly understood occupants’ preferences for
   different housing design layout attributes. This study aims to elucidate
@@ -37,5 +39,5 @@ image:
   filename: featured
   focal_point: Smart
   preview_only: false
-date: 2025-08-24T06:34:37.287Z
+date: 2024-03-01T06:34:00.000Z
 ---
