@@ -38,7 +38,7 @@ abstract: >-
 
   and the potential for reducing price dispersion.
 draft: false
-featured: false
+featured: true
 image:
   filename: figure6.png
   focal_point: Smart
