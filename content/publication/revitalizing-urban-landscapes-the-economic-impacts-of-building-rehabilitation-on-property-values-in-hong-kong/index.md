@@ -8,7 +8,7 @@ authors:
   - Zhen Xu
   - Linzi Zheng
   - Jun‑xian Li
-  - Ziqing Yuan
+  - admin
 doi: https://doi.org/10.1007/s10901-025-10209-x
 publication: Journal of Housing and the Built Environment
 abstract: >-
