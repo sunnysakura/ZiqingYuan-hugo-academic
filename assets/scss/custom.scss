@@ -1,0 +1,162 @@
+// =================================================================
+//  Claude-style Featured Publication cards — drop into
+//  assets/scss/custom.scss in your Hugo repo.
+// =================================================================
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap');
+
+.zy-feat-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 28px;
+  margin-top: 1.5rem;
+}
+
+.zy-feat-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #eee4d6;
+  border-radius: 18px;
+  overflow: hidden;
+  text-decoration: none !important;
+  color: inherit;
+  box-shadow: 0 1px 2px rgba(120, 70, 30, .04);
+  transition: transform .35s cubic-bezier(.2,.8,.2,1),
+              box-shadow .35s cubic-bezier(.2,.8,.2,1),
+              border-color .35s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(120, 70, 30, .12),
+                0 2px 6px rgba(120, 70, 30, .06);
+    border-color: #e6d5bd;
+    text-decoration: none !important;
+
+    .zy-feat-media img { transform: scale(1.04); }
+    .zy-feat-title    { color: #6b5630; }
+  }
+}
+
+.zy-feat-media {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  background: #f6efe3;
+  overflow: hidden;
+
+  &--empty {
+    background: linear-gradient(135deg, #f6efe3 0%, #ece0c8 100%);
+  }
+
+  img {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover; display: block;
+    transition: transform .7s cubic-bezier(.2,.8,.2,1);
+  }
+}
+
+.zy-feat-body {
+  padding: 22px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.zy-feat-journal {
+  font-family: inherit;
+  font-size: 12px;
+  color: #9a7a4a;
+  margin: 0;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  em { font-style: normal; }
+}
+
+.zy-feat-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #4a3a1f;
+  margin: 0;
+  letter-spacing: -.005em;
+  transition: color .25s ease;
+}
+
+.zy-feat-authors {
+  font-size: 13.5px;
+  color: #6b6b6b;
+  margin: 0;
+  line-height: 1.5;
+
+  b, strong { color: #937947; font-weight: 600; }
+}
+
+.zy-feat-summary {
+  font-size: 14px;
+  line-height: 1.55;
+  color: #6b6b6b;
+  margin: 6px 0 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.zy-feat-btns {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: auto;
+  padding-top: 14px;
+}
+
+.zy-btn {
+  display: inline-flex;
+  align-items: center;
+  height: 26px;
+  padding: 0 12px;
+  border: 1px solid #d4a24a;
+  border-radius: 6px;
+  color: #a6720e;
+  background: transparent;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .02em;
+  transition: background .2s ease, color .2s ease;
+}
+
+.zy-feat-card:hover .zy-btn {
+  background: #d4a24a;
+  color: #fff;
+}
+
+// Dark-mode pass (Wowchemy toggles `dark` class on body)
+.dark {
+  .zy-feat-card {
+    background: #232a36;
+    border-color: #2f3744;
+    box-shadow: none;
+
+    &:hover {
+      box-shadow: 0 16px 40px rgba(0,0,0,.4);
+      border-color: #3d465a;
+    }
+  }
+  .zy-feat-title   { color: #e8d8b8; }
+  .zy-feat-authors { color: #a8a8a8; }
+  .zy-feat-summary { color: #a8a8a8; }
+  .zy-feat-media   { background: #1e2530; }
+  .zy-feat-media--empty {
+    background: linear-gradient(135deg, #232a36 0%, #1a1f28 100%);
+  }
+}
+
+@media (max-width: 640px) {
+  .zy-feat-body  { padding: 18px 18px 20px; }
+  .zy-feat-title { font-size: 19px; }
+}
