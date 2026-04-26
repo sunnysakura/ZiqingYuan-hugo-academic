@@ -1,0 +1,75 @@
+{{/*
+  Override of Wowchemy v5 Featured widget.
+  Renders publications as Claude-style horizontal rounded cards.
+  Drop at:  layouts/partials/widgets/featured.html
+*/}}
+
+{{ $ := .root }}
+{{ $page := .page }}
+
+{{ $items_count := 0 }}
+
+{{ $query := where (where (where site.RegularPages "Type" "in" site.Params.page_types_featured) "Params.featured" true) "Params.publishDate.Unix" "<=" now.Unix }}
+
+{{ $page_type := $page.Params.content.page_type | default "" }}
+{{ if $page_type }}
+  {{ $query = where $query "Type" $page_type }}
+{{ end }}
+
+{{ $query := $query.ByDate.Reverse }}
+
+{{ $items_offset := mul $page.Params.content.offset 1 | default 0 }}
+{{ $items_count := $page.Params.content.count }}
+{{ if eq $items_count 0 }}{{ $items_count = 9999 }}{{ else }}{{ $items_count = $items_count | default 9999 }}{{ end }}
+{{ $items_limit := add $items_offset $items_count }}
+
+{{ $items := first $items_limit (after $items_offset $query) }}
+
+<div class="universal-wrapper pt-3">
+  {{ with $page.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+  {{ with $page.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+
+  <div class="zy-feat-row">
+    {{ range $items }}
+      {{ $item := . }}
+      {{ $resource := $item.Resources.ByType "image" }}
+      {{ $featured := $resource.GetMatch "*featured*" }}
+      {{ $img_src := "" }}
+      {{ with $featured }}
+        {{ $img := .Resize "800x" }}
+        {{ $img_src = $img.RelPermalink }}
+      {{ end }}
+      {{ $authors := partial "page_metadata_authors" $item }}
+
+      <a href="{{ $item.RelPermalink }}" class="zy-feat-card">
+        {{ if $img_src }}
+          <div class="zy-feat-media">
+            <img src="{{ $img_src }}" alt="{{ $item.Title | plainify }}" loading="lazy">
+          </div>
+        {{ else }}
+          <div class="zy-feat-media zy-feat-media--empty"></div>
+        {{ end }}
+
+        <div class="zy-feat-body">
+          {{ with $item.Params.publication }}
+            <p class="zy-feat-journal">{{ . | markdownify | emojify }}{{ with $item.Date }} · {{ $item.Date.Format "2006" }}{{ end }}</p>
+          {{ else }}
+            {{ with $item.Date }}<p class="zy-feat-journal">{{ $item.Date.Format "January 2006" }}</p>{{ end }}
+          {{ end }}
+
+          <h3 class="zy-feat-title">{{ $item.Title | markdownify | emojify }}</h3>
+
+          {{ with $authors }}<p class="zy-feat-authors">{{ . | safeHTML }}</p>{{ end }}
+
+          {{ with $item.Params.summary }}<p class="zy-feat-summary">{{ . | markdownify | emojify }}</p>{{ end }}
+
+          <div class="zy-feat-btns">
+            <span class="zy-btn">Details</span>
+            {{ with $item.Params.url_pdf }}<span class="zy-btn">PDF</span>{{ end }}
+            {{ with $item.Params.doi }}<span class="zy-btn">DOI</span>{{ end }}
+          </div>
+        </div>
+      </a>
+    {{ end }}
+  </div>
+</div>
